@@ -49,7 +49,7 @@ These apps I created from scratch. From customer discovery to mobile and backend
 
 [Зерновозы Android](https://play.google.com/store/apps/details?id=porttranzit.nat.client)
 
-[Зерновозы iOS](itunes.apple.com/ru/app/zernovozy/id1078602962?l=ru&ls=1&mt=8)
+[Зерновозы iOS](https://itunes.apple.com/ru/app/zernovozy/id1078602962?l=ru&ls=1&mt=8)
 
 
 Smekay.net - dating service. In this project I led mobile development team. Now this project is dead. 

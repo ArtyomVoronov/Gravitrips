@@ -2,7 +2,7 @@
 
 Gravitrips (most famous as Connect Four) is a two-player connection game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one’s own discs. 
 
-This project developed for technical assessment for Windows Phone Software Engineer position.  
+This project developed for technical assessment for Windows Phone Software Engineer position. 
 
 ## How to build/deploy/use solution. ## 
 ### Requirements ###
@@ -25,14 +25,16 @@ ClassicGameField contains classical game logic with field 6x7. It's easy to chan
 
 Strategy pattern used for AI realization because it lets the AI algorithm vary independently from other classes.
 
+MVVM pattern used for separation UI and logic. MVVM Light Toolkit selected because it  cross-platforming and easy to maintain.
+
 ## What could be improved or added ##
 
 ### Refactoring and code ###
-- Create better AI strategies.
+- Add better AI strategies.
 - Game and GameField classes could be refactored.  
 
 ### Architecture ###
-- Change MVVM framework to MvvmCross and isolate ViewModels and other core logic in PCL. This will open up the possibility for creating Android and iOS apps using existing core code.
+- Isolate ViewModels and other core logic in PCL. This will open up the possibility for creating Android and iOS apps using existing core code.
 
 ### UI ###
 - App design improving, styles for controls. 
